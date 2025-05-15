@@ -6,7 +6,6 @@ import com.example.testTask.dao.model.User;
 import com.example.testTask.dao.repo.PhoneRepository;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
-import org.springframework.objenesis.SpringObjenesis;
 import org.springframework.stereotype.Service;
 
 @Service

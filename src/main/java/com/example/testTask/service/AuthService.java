@@ -3,8 +3,6 @@ package com.example.testTask.service;
 import com.example.testTask.api.dto.LoginRequestDto;
 import com.example.testTask.api.exception.RecordNotFoundException;
 import com.example.testTask.dao.model.User;
-import com.example.testTask.dao.repo.EmailRepository;
-import com.example.testTask.dao.repo.PhoneRepository;
 import org.springframework.stereotype.Service;
 
 @Service

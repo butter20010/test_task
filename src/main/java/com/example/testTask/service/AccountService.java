@@ -4,8 +4,6 @@ import com.example.testTask.api.exception.RecordNotFoundException;
 import com.example.testTask.dao.model.Account;
 import com.example.testTask.dao.repo.AccountRepository;
 import jakarta.transaction.Transactional;
-import org.springframework.cache.annotation.CacheEvict;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
